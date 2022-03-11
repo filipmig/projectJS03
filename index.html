@@ -4,39 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700&display=swap&subset=latin-ext"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5e3fe16a32.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Application03</title>
+    
+    <title>Fortune cookie</title>
 </head>
 <body>
     <div class="wrapper">
-        <div class="header">
-            <div class="shadow"></div>
-                <h1>CoffeeSearch</h1>
-                <input type="text" class="search" placeholder="enter the name of the drink you are looking for">
+        <div class="info">
+            <h1>Fortune Cookie</h1>
+            <p>Zadaj pytanie, kliknij ciastko i poznasz prawdę</p>
         </div>
-        <div class="coffee-list">
-            <h2>List of available drinks</h2>
-            <ul>
-                <li>Black</li>
-                <li>Black with milk</li>
-                <li>Latte</li>
-                <li>Cappucino</li>
-                <li>Flat White</li>
-                <li>Espresso</li>
-                <li>Double espresso</li>
-                <li>Machiato</li>
-                <li>Sweet latte</li>
-                <li>Corto</li>
-            </ul>
+        <div class="cookie-img">
+            <img src="fortune-cookies.png" alt="Cookie">
+        </div>
+        <div class="question-area">
+            <h2>Zadaj pytanie:</h2>
+            <input type="text">
+            <p class="answer"></p>
+            <p class="error"></p>
         </div>
     </div>
-
-
+    
     <script src="script.js"></script>
 </body>
 </html>
